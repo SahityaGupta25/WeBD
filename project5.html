@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    #navbar{
+        display: flex;
+        align-items: center;
+    }
+    #navbar::before{
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    }
+    #logo{
+    margin: 20px 20px;
+    }
+    #logo img{
+    height: 60px;
+    margin: 20px 20px;
+    border-radius: 15px;
+    }
+    #navbar ul{
+    display: flex;
+    }
+    #navbar ul li{
+        list-style: none;
+    }
+    #navbar ul li a{
+        padding: 20px 20px;
+        text-decoration: none;
+ }
+ #navbar ul li a:hover{
+        color: white;
+ }
+    
+
+</style>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="./img/genpact.png" alt="">
+
+        </div>
+
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">About Us</a></li>
+            <li class="item"><a href="#">Contact Us</a></li>
+            <li class="item"><a href="#">Skills</a></li>
+            <li class="item"><a href="#"> Enterprenuership</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>
