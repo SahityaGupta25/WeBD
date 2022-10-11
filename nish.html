@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<style>
+*{
+        padding: 0%;
+        margin: 0%;
+    }
+    #navbar::before{
+        content: "";
+        position: absolute;
+        background-color: rgb(10, 10, 10);
+        height: 54%;
+        width: 100%;
+        /* background: url("../img/amit2.jpg.jpeg") no-repeat center center/cover; */
+        z-index: -1;
+        opacity: 0.9;
+    }
+#navbar{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+#logo img{
+    margin:10px 20px;
+    height: 35px;
+    filter: invert();
+}
+#logo{
+    margin:10px 20px;
+}
+ul{
+    display: flex;
+}
+#navbar ul li{
+    padding: 10px 5px;
+    list-style:none;
+    font-size: 25px;
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 25px;
+    color: rgb(255, 255, 255);
+    margin: 10px 11px;
+    text-decoration: none;
+    font-family: 'Source Code Pro', monospace;
+}
+#navbar ul li a:hover{
+    color: gray;
+    background-color: white;
+}
+#home{
+    display:flex;
+    padding: 30px 00px;
+    height: 700px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        background: url("./img/nis3.jpg") no-repeat center center/cover;
+        z-index: -1;
+        /* opacity: 0.99; */
+    
+}
+#home h1{
+    text-align: center;
+    color:blanchedalmond;
+
+}
+
+.headingprimary{
+   
+font-size: 75px;
+padding: 10px 12px;
+font-family: 'Bebas Neue', cursive;
+}
+.headingsecondary{
+    color: blanchedalmond;
+  font-size: 35px;
+  padding: 10px 12px;
+  font-family: 'Bebas Neue', cursive;
+  
+}
+#home p{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+#services{
+    display: flex;
+    margin: 70px;
+
+}
+#services .box{
+    
+    padding: 8px;
+    margin: 10px 20px;
+    border-radius: 60px;
+    background-color: rgb(0, 0, 0);
+}
+#services .box img{
+    height: 460px;
+    width: 425px;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+}
+.para{
+     color: blanchedalmond;
+     
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url("../img/code2\ \(1\).jpg");
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+}
+#client-section{
+    height:400px;
+    
+    
+    }
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clients-items{
+    padding: 34px;
+}
+#clients img{
+   
+    height: 200px;
+    padding: 34px;
+    border-radius: 72px;
+}
+#client-section h1{
+    text-align: center;
+}
+</style>
+<body>
+ 
+<nav id="navbar">
+
+    <div id="logo">
+        <img src="./img/accenture.png" alt="">  
+    </div>
+    
+        <ul >
+            <li class="item" ><a href="#" class="Active">Career</a></li>
+            <li class="item" ><a href="#" >Experience </a> </li>
+            <li class="item" ><a href="#"> Achivements  </a></li>
+            <li class="item" ><a href="#" >Technical Skills </a></li>
+            <li class="item" ><a href="#" > Contact Us</a> </li>
+        </ul>
+   
+    </nav>
+    
+    <section id="home">
+        <h1 class="headingprimary">Nischay Gupta</h1>
+        <!-- <p class="primary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio quas accusantium saepe eius consequuntur, voluptates odit. Reprehenderit, doloribus? Est dolorem hic repudiandae officiis minima eligendi reprehenderit maiores, itaque ullam enim quisquam nesciunt alias provident eos deleniti sunt veniam facilis exercitationem cumque laborum quis. Excepturi impedit dicta, sint et ut pariatur.</p> -->
+
+    </section>
+
+    <section class="services-container">
+        <h1 class="headingprimary center">
+            My Life
+        </h1>
+        <div id="services">
+            <div class="box">
+
+                <img src="./img/nish3.jpg" alt="">
+                <h1 class="headingsecondary center">work</h1>
+                <p class="para">Life is another name for labour. A person who does not have hard work in life cannot move forward, where one is born, one day he will dry up and fall on the earth. It is like a pond in which water neither comes nor flows. When it rained a little bit was filled and it kept rotting. The wanderer also runs away from his bad smell, no one likes to come near.</p>
+            </div>
+            <div class="box">
+
+                <img src="./img/nis2.jpg" alt="">
+                <h1 class="headingsecondary center">family</h1>
+                <p class="para">In human society, family (from Latin: familia) is a group of people related either by consanguinity (by recognized birth) or affinity (by marriage or other relationship). The purpose of families is to maintain the well-being of its members and of society. Ideally, families would offer predictability, structure, and safety as members mature and participate in the community.[1] .</p>
+            </div>
+            <div class="box">
+
+                <img src="./img/nis4.jpg" alt="">
+                <h1 class="headingsecondary center">activity</h1>
+                <p class="para">There are so many activities that, I love to be involved in or rather say I would do. I love to listen to music, especially when I am in good mood and when I am so much into a work that requires lots of concentration. It really relaxes me and gives me a wonderful feeling to carry out the task whatever I am in such a smooth and easy manner. At some other times, I love to draw. Yes I do draw and I have drawn many pictures, both small and big. But drawing is one activity that requires no disturbance and hence it sometimes only catches my attention.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- 
+    CLIENT SECTION -->
+
+    <section id="client-section">
+        <h1 class="headingprimary">Our Clients</h1>
+        <div id="clients">
+            <div class="clients-item">
+                <img src="./img/honda.jpg" alt="">
+            </div>
+
+            <div class="clients-item">
+                <img src="./img/samsung.jpg" alt="">
+            </div>
+            <div class="clients-item">
+                <img src="./img/boat.png" alt="">
+            </div>
+
+
+
+        </div>
+    </section>
+</body>
+</html>
