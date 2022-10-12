@@ -1,0 +1,122 @@
+/* CSS Reset */
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#logo{
+    margin: 10px 15px;
+}
+#logo img{
+     height: 35px;
+    margin: 40px 7px;
+    cursor: pointer;
+} 
+#navabar{
+    position: relative;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    
+    background-color: rgb(8, 8, 8);
+
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1rem;
+    
+    
+}
+#navbar ul li a{
+    font-family: 'Anton', sans-serif;
+    display: block;
+    padding: 2px 120px;
+    font-size: 20px;
+    color: cornsilk;
+    border-radius: 7px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: rgb(8, 8, 8);
+    background-color: aliceblue;
+}
+
+
+/* My Section area start from here */
+
+.section{
+    display: flex;
+    height: 630px;
+    margin: 10px 10px;
+    flex-direction: column;
+    padding: 10px 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+.section::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width:100%;
+    background: url("../img/repsol.jpg") no-repeat center center/cover;
+    
+    z-index: -1;
+
+}
+.heading1{
+    padding: 10px 20px;
+    color: blanchedalmond;
+    font-size: 25px;
+    font-family: 'Zen Dots', cursive;
+}
+p{ 
+    font-size: 1.4rem;
+    color: blanchedalmond;
+
+ }
+.heading2{ 
+    color: blanchedalmond;
+    font-size: 15px;
+    font-family: 'Zen Dots', cursive;
+
+}
+.btn{
+    height: 54px;
+    width:146px;
+    border-radius: 10px;
+    background-color: rgb(228, 99, 13);
+}
+
+/* my second section starts from here */
+
+.section1{
+    margin: 60px;
+    display: flex;
+    
+}
+.section1 .box img{
+    height: 300px;
+    margin: auto;
+    display: block;
+    padding: 160px;
+
+}
+.section1 .services{
+    margin: 10px 20px;
+    
+}

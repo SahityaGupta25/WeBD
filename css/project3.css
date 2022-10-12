@@ -1,0 +1,25 @@
+#navbar{
+    flex-direction: column;
+}
+ul{
+    flex-direction: column;
+}
+#home{
+  flex-direction: column;
+}
+#services{
+flex-direction: column;
+}
+#services .box{
+
+}
+#clients {
+    flex-direction: column;
+}
+#services .box img{
+    height: 170px;
+    width: 157px;
+}
+#clients img{
+    height: 120px;
+}
