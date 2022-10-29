@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function hide() {
+            let a = document.getElementById('btn');
+            let b = document.getElementById('para');
+            if(para.style.display != 'none'){
+                para.style.display = 'none';
+            }
+            else{
+                para.style.display = 'block';
+            }
+
+        }
+    </script>
+</head>
+<style>
+    #btn{
+        height: 66px;
+        width: 166px;
+        border: 4px solid black;
+        font-size: 26px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+</style>
+<body>
+    <h1>Event & Event Listening</h1>
+    <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium omnis magnam praesentium exercitationem alias, sapiente optio reiciendis! Suscipit quas dolor est, voluptatum officiis eius commodi quod minima illum quia quisquam, et delectus sapiente harum cum! Architecto sunt magnam a praesentium inventore repudiandae pariatur rem. Mollitia minus tempore debitis iusto officiis dolores velit odit deserunt officia similique quia, veritatis, atque fuga adipisci nobis. Numquam pariatur dolores incidunt.</p>
+    <button id="btn" onclick="hide()">Show or Hide</button>
+    
+</body>
+</html>
